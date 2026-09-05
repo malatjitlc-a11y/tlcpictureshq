@@ -207,6 +207,13 @@
       margin-top: 25px;
     }
 
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 25px;
+    }
+
     .grid-4 {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -314,7 +321,7 @@
 
     .credits-list li {
       list-style: none;
-      padding: 6px 0;
+      padding: 8px 0;
       border-bottom: 1px solid #222222;
       display: flex;
       justify-content: space-between;
@@ -486,6 +493,8 @@
       <div class="img-box" style="max-width: 800px; margin: 20px auto;">
         <img src="umlilo-poster.jpg.jpg" alt="Umlilo: The Fire Season 4 Poster">
       </div>
+
+      <h2>Episodes</h2>
       <div class="grid-4">
         <div class="card"><h3>Episode 1</h3><button class="btn" onclick="showView('episode-template')">View Episode</button></div>
         <div class="card"><h3>Episode 2</h3><button class="btn" onclick="showView('episode-template')">View Episode</button></div>
@@ -497,6 +506,28 @@
         <div class="card"><h3>Episode 8</h3><button class="btn" onclick="showView('episode-template')">View Episode</button></div>
         <div class="card"><h3>Episode 9</h3><p>Season Finale</p><button class="btn" onclick="showView('episode-template')">View Episode</button></div>
       </div>
+
+      <h2>Cast</h2>
+      <div class="grid-3">
+        <div class="card">
+          <div class="img-box" style="height: 260px;">
+            <img src="isaac.jpg.JPG" alt="Isaac Leseilane" style="height: 100%; object-fit: cover;">
+          </div>
+          <h3>Isaac Leseilane</h3>
+          <p>Character: Revolver</p>
+        </div>
+        <div class="card">
+          <div class="img-box" style="height: 260px;">
+            <img src="mhlathi.jpg.jpg" alt="Mahlatse Baloyi" style="height: 100%; object-fit: cover;">
+          </div>
+          <h3>Mahlatse Baloyi</h3>
+          <p>Character: Mlambo</p>
+        </div>
+        <div class="card">
+          <h3>Malatji Mathake</h3>
+          <p>Character: MTK</p>
+        </div>
+      </div>
     </section>
 
     <!-- 3B. SEASON 1 NEW FLAMES VIEW -->
@@ -506,9 +537,33 @@
       <div class="img-box" style="max-width: 800px; margin: 20px auto;">
         <img src="new-flames-poster.jpg.png" alt="Umlilo New Flames Poster">
       </div>
+
+      <h2>Episodes</h2>
       <div class="grid-2">
         <div class="card"><h3>Episode 1</h3><button class="btn" onclick="showView('episode-template')">View Episode</button></div>
         <div class="card"><h3>Episode 2</h3><button class="btn" onclick="showView('episode-template')">View Episode</button></div>
+      </div>
+
+      <h2>Cast</h2>
+      <div class="grid-3">
+        <div class="card">
+          <div class="img-box" style="height: 260px;">
+            <img src="isaac.jpg.JPG" alt="Isaac Leseilane" style="height: 100%; object-fit: cover;">
+          </div>
+          <h3>Isaac Leseilane</h3>
+          <p>Character: Revolver</p>
+        </div>
+        <div class="card">
+          <div class="img-box" style="height: 260px;">
+            <img src="mhlathi.jpg.jpg" alt="Mahlatse Baloyi" style="height: 100%; object-fit: cover;">
+          </div>
+          <h3>Mahlatse Baloyi</h3>
+          <p>Character: Mlambo</p>
+        </div>
+        <div class="card">
+          <h3>Malatji Mathake</h3>
+          <p>Character: MTK</p>
+        </div>
       </div>
     </section>
 
@@ -519,12 +574,26 @@
       <div class="img-box" style="max-width: 800px; margin: 20px auto;">
         <img src="kasi-poster.jpg.jpg" alt="Kasi to Gazi Poster">
       </div>
+
+      <h2>Episodes</h2>
       <div class="grid-4">
         <div class="card"><h3>Episode 1</h3><button class="btn" onclick="showView('episode-template')">View Episode</button></div>
         <div class="card"><h3>Episode 2</h3><button class="btn" onclick="showView('episode-template')">View Episode</button></div>
         <div class="card"><h3>Episode 3</h3><button class="btn" onclick="showView('episode-template')">View Episode</button></div>
         <div class="card"><h3>Episode 4</h3><button class="btn" onclick="showView('episode-template')">View Episode</button></div>
         <div class="card"><h3>Episode 5</h3><button class="btn" onclick="showView('episode-template')">View Episode</button></div>
+      </div>
+
+      <h2>Cast</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Isaac Leseilane</h3>
+          <p>Character: Escape</p>
+        </div>
+        <div class="card">
+          <h3>Malomane Themba</h3>
+          <p>Character: Mozee</p>
+        </div>
       </div>
     </section>
 
@@ -535,6 +604,8 @@
       <div class="img-box" style="max-width: 800px; margin: 20px auto;">
         <img src="sello-poster.jpg.jpg" alt="Sello Tube Series Poster">
       </div>
+
+      <h2>Episodes</h2>
       <div class="grid-4">
         <div class="card"><h3>Episode 1</h3><button class="btn" onclick="showView('episode-template')">View Episode</button></div>
         <div class="card"><h3>Episode 2</h3><button class="btn" onclick="showView('episode-template')">View Episode</button></div>
@@ -542,12 +613,24 @@
         <div class="card"><h3>Episode 4</h3><button class="btn" onclick="showView('episode-template')">View Episode</button></div>
         <div class="card"><h3>Episode 5</h3><button class="btn" onclick="showView('episode-template')">View Episode</button></div>
       </div>
+
+      <h2>Cast</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Malomane Themba</h3>
+          <p>Character: Cedric</p>
+        </div>
+        <div class="card">
+          <h3>Baloyi Theo</h3>
+          <p>Character: Noah</p>
+        </div>
+      </div>
     </section>
 
     <!-- 4. UNIVERSAL EPISODE PAGE TEMPLATE -->
     <section id="episode-template" class="view-section">
-      <h1>[SERIES TITLE HERE]</h1>
-      <p class="tagline">[EPISODE NUMBER / TITLE]</p>
+      <h1>Umlilo: The Fire</h1>
+      <p class="tagline">Episode 1</p>
 
       <div class="img-box" style="max-width: 800px; margin: 20px auto;">
         <img src="umlilo-poster.jpg.jpg" alt="Episode Thumbnail Placeholder">
@@ -559,11 +642,6 @@
       </div>
 
       <h2>Episode Information</h2>
-      <h3>Synopsis</h3>
-      <p style="font-style: italic; color: var(--text-muted); background: var(--card-bg); padding: 15px; border-left: 3px solid var(--red-accent);">
-        [ Editable text area for episode synopsis ]
-      </p>
-
       <h3>Credits</h3>
       <ul class="credits-list">
         <li><span class="label">Created by:</span> <span>Emmanuel Malatji</span></li>
@@ -574,20 +652,24 @@
       </ul>
 
       <h2>Cast</h2>
-      <div class="grid-2">
+      <div class="grid-3">
         <div class="card">
-          <div class="img-box" style="height: 300px;">
+          <div class="img-box" style="height: 260px;">
             <img src="isaac.jpg.JPG" alt="Isaac Leseilane" style="height: 100%; object-fit: cover;">
           </div>
           <h3>Isaac Leseilane</h3>
           <p>Character: Revolver</p>
         </div>
         <div class="card">
-          <div class="img-box" style="height: 300px;">
-            <img src="mhlathi.jpg.jpg" alt="Mhlathi" style="height: 100%; object-fit: cover;">
+          <div class="img-box" style="height: 260px;">
+            <img src="mhlathi.jpg.jpg" alt="Mahlatse Baloyi" style="height: 100%; object-fit: cover;">
           </div>
-          <h3>Mhlathi</h3>
-          <p>Character: Cast Member</p>
+          <h3>Mahlatse Baloyi</h3>
+          <p>Character: Mlambo</p>
+        </div>
+        <div class="card">
+          <h3>Malatji Mathake</h3>
+          <p>Character: MTK</p>
         </div>
       </div>
     </section>
@@ -597,20 +679,26 @@
       <h1>Crew</h1>
       <p>Production crew of TLC Pictures.</p>
 
-      <div class="card" style="margin-top: 20px;">
-        <div class="grid-2" style="align-items: center;">
-          <div class="img-box" style="max-width: 350px;">
-            <img src="emmanuel.jpg.jpg" alt="Emmanuel Malatji">
+      <div class="grid-2" style="margin-top: 20px;">
+        <div class="card">
+          <div class="img-box" style="height: 320px;">
+            <img src="emmanuel.jpg.jpg" alt="Emmanuel Malatji" style="height: 100%; object-fit: cover;">
           </div>
-          <div>
-            <h2>Emmanuel Malatji</h2>
-            <p style="color: var(--red-accent); font-weight: bold;">Founder • Writer • Director • Editor • Camera Operator</p>
-            <button class="btn" onclick="showView('emmanuel-story')" style="margin-top: 15px;">Emmanuel's Story</button>
+          <h3>Emmanuel Malatji</h3>
+          <p style="color: var(--red-accent); font-weight: bold;">Founder • Writer • Director • Editor • Camera Operator</p>
+          <button class="btn" onclick="showView('emmanuel-story')" style="margin-top: 15px;">Emmanuel's Story</button>
+        </div>
+
+        <div class="card">
+          <div class="img-box" style="height: 320px;">
+            <img src="isaac.jpg.JPG" alt="Isaac Leseilane" style="height: 100%; object-fit: cover;">
           </div>
+          <h3>Isaac Leseilane</h3>
+          <p style="color: var(--red-accent); font-weight: bold;">Cast Coordinator</p>
         </div>
       </div>
 
-      <h2>Additional Crew Members</h2>
+      <h2>Additional Crew & Production Photos</h2>
       <div class="img-box">
         <img src="early-tlc.jpg.jpg" alt="Early Crew Members">
       </div>
@@ -660,11 +748,12 @@
       <h1>Contact TLC Pictures</h1>
       <div class="credits-list" style="margin-top: 25px;">
         <ul>
-          <li><span class="label">Phone / WhatsApp:</span> <span>[ADD NUMBER]</span></li>
-          <li><span class="label">Email:</span> <span>[ADD EMAIL]</span></li>
-          <li><span class="label">YouTube:</span> <span>[ADD YOUTUBE LINK]</span></li>
-          <li><span class="label">Instagram:</span> <span>[ADD INSTAGRAM LINK]</span></li>
-          <li><span class="label">Facebook:</span> <span>[ADD FACEBOOK LINK]</span></li>
+          <li><span class="label">Phone / WhatsApp:</span> <span>082 474 8259</span></li>
+          <li><span class="label">Email:</span> <span>tlcpictures01@gmail.com</span></li>
+          <li><span class="label">YouTube:</span> <span>Tlc pictures</span></li>
+          <li><span class="label">TikTok:</span> <span>tlcpictures hq</span></li>
+          <li><span class="label">Instagram:</span> <span>tlcpictures hq</span></li>
+          <li><span class="label">Facebook:</span> <span>tlc pictures</span></li>
         </ul>
       </div>
     </section>
